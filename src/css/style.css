@@ -1,0 +1,40 @@
+:root {
+    --amarelo: #ffe88a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    height: 80px;
+    padding-inline: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--amarelo);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
