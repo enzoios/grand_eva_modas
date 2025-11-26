@@ -1,5 +1,174 @@
+/* img {
+	max-width: 300px;
+} */
+/* BANNER */
 #banner {
-    height: 350px;
-    background-image: url("../imagens/vestido.jpg");
-    background-size: cover;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	color: white;
+	position: relative;
+	overflow: hidden;
+}
+
+#banner img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	filter: blur(2px);
+	z-index: -1;
+}
+
+#banner div {
+	padding: 1.5rem;
+	background-color: rgba(255, 192, 189, 0.5);
+	max-width: 450px;
+	margin-right: 5%;
+}
+
+#banner h2 {
+	font-size: 2.5rem;
+}
+
+#banner a {
+	margin-top: 2.5rem;
+	display: inline-block;
+	padding: .75rem;
+	background-color: var(--rosa);
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+
+/* NOSSA LOJA */
+#nossa-loja {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+#nossa-loja h2 {
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+#nossa-loja .catalogo {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	column-gap: 1.5rem;
+	row-gap: 3rem;
+}
+
+#nossa-loja .produto {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+	width: 300px;
+}
+
+#nossa-loja .produto .produto-imagem {
+	height: 250px;
+	border-radius: 7px;
+	object-fit: cover;
+	object-position: center;
+}
+
+#nossa-loja .produto a {
+	color: black;
+
+}
+
+
+/* UTENSÍLIOS */
+#utensilios {
+	position: relative;	
+	padding: 2rem;
+	/* background-color: var(--rosa-claro); */
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 1.5rem;
+	max-height: 700px;
+	overflow: hidden;
+}
+
+#utensilios::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: var(--rosa-claro);
+	z-index: -999;
+}
+
+#utensilios .utensilios-container {
+	display: flex;
+	flex-direction: column;
+}
+
+#utensilios .utensilios-container h2 {
+	color: var(--rosa-escuro);
+	font-size: 3rem;
+}
+
+#utensilios .utensilios-container p {
+	font-size: 18px;
+}
+
+#utensilios .utensilios-container a {
+	background-color: var(--rosa-escuro);
+	padding: 1.5rem;
+	color: white;
+	width: fit-content;
+	border-radius: 8px;
+	justify-self: end;
+}
+
+.folha-1, .folha-2 {
+	position: absolute;
+	width: 30vw;
+	max-width: 350px;
+	z-index: -1;
+	opacity: .6;
+}
+
+.folha-1 {
+	transform: rotate(-90deg);
+	left: 0;
+	top: 0;
+}
+
+.folha-2 {
+	right: -24px;
+	bottom: -24px;
+}
+
+.utensilios-imagens {
+	display: grid;
+	grid-template-columns: .6fr .4fr;
+	grid-template-rows: .45fr .55fr;
+	gap: .5rem;
+}
+
+.utensilios-imagens img {
+	width: 100%;
+	height: 100%;
+	max-height: 280px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 3px;
+}
+
+.utensilios-imagens img.span-2 {
+	grid-column: span 2;
+	object-position: bottom;
 }

@@ -1,5 +1,8 @@
 :root {
     --amarelo: #ffe88a;
+		--rosa-claro: #ffebeb;
+		--rosa: #f5b1ac;
+		--rosa-escuro: #ca7575;
 }
 
 * {
