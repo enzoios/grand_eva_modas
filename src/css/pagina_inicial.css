@@ -51,7 +51,7 @@
 
 /* NOSSA LOJA */
 #nossa-loja {
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: 0 auto;
 	padding: 1.5rem;
 	margin-bottom: 2rem;
@@ -94,11 +94,7 @@
 #utensilios {
 	position: relative;	
 	padding: 2rem;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 1.5rem;
-	max-height: 600px;
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 
 #utensilios::before {
@@ -109,21 +105,30 @@
 	z-index: -999;
 }
 
-#utensilios .utensilios-container {
+.utensilios-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 1.5rem;
+	max-height: 600px;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+#utensilios .utensilios-texto {
 	display: grid;
 	grid-template-rows: auto auto 1fr;
 }
 
-#utensilios .utensilios-container h2 {
+#utensilios .utensilios-texto h2 {
 	color: var(--rosa-escuro);
 	font-size: 3rem;
 }
 
-#utensilios .utensilios-container p {
+#utensilios .utensilios-texto p {
 	font-size: 18px;
 }
 
-#utensilios .utensilios-container a {
+#utensilios .utensilios-texto a {
 	background-color: var(--rosa-escuro);
 	padding: 1.5rem;
 	color: white;
@@ -282,21 +287,24 @@
 
 	/* UTENSÍLIOS */
 	#utensilios {
-		grid-template-columns: 1fr;
-		max-height: fit-content;
 		padding: 1rem;
 	}
+	
+	.utensilios-container {
+		grid-template-columns: 1fr;
+		max-height: fit-content;
+	}
 
-	#utensilios .utensilios-container h2 {
+	#utensilios .utensilios-texto h2 {
 		font-size: 1.5rem;
 		margin-bottom: 1rem;
 	}
 
-	#utensilios .utensilios-container p {
+	#utensilios .utensilios-texto p {
 		font-size: 1rem;
 	}
 
-	#utensilios .utensilios-container a {
+	#utensilios .utensilios-texto a {
 		padding: 1rem;
 		margin-block: 1rem;
 	}
