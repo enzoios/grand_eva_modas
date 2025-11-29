@@ -9,17 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+
     <!-- LINKS CSS -->
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/pagina_inicial.css">
+
 </head>
 <body>
     <header>
-        <p class="logo">
+        <a href="/index.html" class="logo">
             <img src="src/imagens/bazar-logo.webp" alt=""/>
             Grand Eva Modas
-        </p>
+        </a>
         <nav>
             <a href="#">Loja</a>
             <a href="#">Sobre nós</a>
@@ -30,11 +31,11 @@
         <!-- Banner inicial da página -->
         <section id="banner">
 					<img src="src/imagens/vestido-2.jpg" alt="Vestido">
-            <div>
-                <h2>Eleve Seu Estilo</h2>
-                <p>Atualize o seu guarda-roupa com os melhores preços e diversas marcas.</p>
-                <a href="#">Catálogo de Produtos</a>
-            </div>
+					<div>
+							<h2>Eleve Seu Estilo</h2>
+							<p>Atualize o seu guarda-roupa com os melhores preços e diversas marcas.</p>
+							<a href="#">Catálogo de Produtos</a>
+					</div>
         </section>
 
 
@@ -42,7 +43,7 @@
         <section id="nossa-loja">
             <h2>Explore nossa loja</h2>
 
-            <div class="catalogo">
+            <div class="catalogo container">
                 <div class="produto">
                     <p class="produto-titulo">Vestidos</p>
                     <img src="src/imagens/vestido.jpg" alt="Imagem de um vestido rosa bem bonito" class="produto-imagem">
@@ -171,29 +172,31 @@
 
         <!-- CONTATO E LOCALIZAÇÃO -->
          <section id="contato-localizacao">
-            <h2>Contato e Localização</h2>
+					<div class="container">
+						<h2>Contato e Localização</h2>
             <div class="contatos">
-                <div class="contato">
-                    <img src="src/imagens/mapa-logo.png" alt="Localização">
-                    <p>Av. Baruel, 647 - Casa Verde - CEP 02522-000</p>
-                </div>
-                <div class="contato">
-                    <img src="src/imagens/whatsapp-logo.png" alt="Whatsapp">
-                    <p>11 99517-5549</p>
-                </div>
-                <div class="contato">
-                    <img src="src/imagens/telefone-logo.png" alt="Telefone">
-                    <p>11 3624-5549</p>
-                </div>
+							<div class="contato">
+								<img src="src/imagens/mapa-logo.png" alt="Localização">
+								<p>Av. Baruel, 647 - Casa Verde - CEP 02522-000</p>
+							</div>
+							<div class="contato">
+								<img src="src/imagens/whatsapp-logo.png" alt="Whatsapp">
+								<p>11 99517-5549</p>
+							</div>
+							<div class="contato">
+								<img src="src/imagens/telefone-logo.png" alt="Telefone">
+								<p>11 3624-5549</p>
+							</div>
             </div>
             <div class="horario">
-                <h3>Horário de funcionamento</h3>
-                <p>TER-DOM: <strong>9:00 - 18:00</strong></p>
-                <p>SEGUNDA: <strong>9:00 - 18:00</strong>(Aberto até o final do ano)</p>
+							<h3>Horário de funcionamento</h3>
+							<p>TER-DOM: <strong>9:00 - 18:00</strong></p>
+							<p>SEGUNDA: <strong>9:00 - 18:00</strong>(Aberto até o final do ano)</p>
             </div>
-
+						
             <!-- MAPS -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.7954087641215!2d-46.663541825424296!3d-23.503877559481438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7f20a5f16fb%3A0x205d2f85803accc6!2sAv.%20Baruel%2C%20647%20-%20Vila%20Baruel%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002522-000!5e0!3m2!1spt-BR!2sbr!4v1764081710069!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
          </section>
     </main>
     <footer>
@@ -205,7 +208,6 @@
                 <a href="#">Contato</a>
                 <a href="#">Política de privacidade</a>
             </div>
-            <div class="linha-meio"></div>
             <div class="links-direita">
                 <p><strong>Loja</strong></p>
                 <a href="#">Camisas</a>
@@ -221,7 +223,11 @@
             </div>
         </div>
 
-        <p class="direitos-reservados">© 2025 DESENVOLVIDO POR THOTH CONSULTORIA - TODOS OS DIREITOS RESERVADOS</p>
+        <p class="direitos-reservados">© 2025 DESENVOLVIDO POR <strong>THOTH CONSULTORIA</strong> - TODOS OS DIREITOS RESERVADOS</p>
     </footer>
+
+		<script>
+			
+		</script>
 </body>
 </html>
