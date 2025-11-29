@@ -1,6 +1,33 @@
-/* img {
-	max-width: 300px;
-} */
+main {
+	position: relative;
+}
+
+/* WHATSAPP FLUTUANTE */
+.whatsapp-flutuante {
+	display: inline-block;
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	text-decoration: none;
+	height: 4rem;
+	width: 4rem;
+
+	animation: whatsapp 2s linear infinite
+}
+
+.whatsapp-flutuante img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+
+@keyframes whatsapp {
+	0% {scale: 1;}
+	50% {scale: 1.1;}
+	100% {scale: 1;}
+}
+
+
 /* BANNER */
 #banner {
 	height: 400px;
@@ -186,18 +213,24 @@
 	background-color: var(--verde-claro);
 }
 
+.swiper-wrapper {
+	padding: 1.5rem 1.5rem 1.5rem 0 !important;
+	cursor: pointer;
+	max-width: 1100px !important;
+	margin-inline: auto !important;
+}
+
+.swiper-slide {
+	height: 300px !important;
+}
+
 #avaliacoes h2, #avaliacoes .avaliacoes-texto{
 	text-align: center;
 }
 
+
 .avaliacoes-container {
-	max-width: 1100px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 1.5rem;
 	margin-top: 2rem;
-	justify-content: center;
 }
 
 .avaliacao {
@@ -206,7 +239,7 @@
 	border-radius: 7px;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
 	height: 200px;	
-	display: flex;
+	display: flex !important;
 	flex-direction: column;
 	gap: 1rem;
 }
@@ -357,13 +390,13 @@
 	}
 
 	/* AVALIAÇÕES */
-	#avaliacoes {
+	/* #avaliacoes {
 		padding: 1rem;
 	}
 	
 	#avaliacoes .avaliacoes-container {
 		grid-template-columns: 1fr;
-	}
+	} */
 }
 
 @media (max-width: 400px) {
