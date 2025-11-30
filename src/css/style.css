@@ -1,5 +1,6 @@
 :root {
     --amarelo: #ffe88a;
+		--amarelo-claro: #fcedbe;
     --rosa-claro: #ffebeb;
     --rosa: #f5b1ac;
     --rosa-escuro: #ca7575;
@@ -15,6 +16,31 @@
 
 body {
     font-family: "Poppins", sans-serif;
+}
+
+/* WHATSAPP FLUTUANTE */
+.whatsapp-flutuante {
+	display: inline-block;
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	text-decoration: none;
+	height: 4rem;
+	width: 4rem;
+	cursor: pointer;
+	animation: whatsapp 2s linear infinite
+}
+
+.whatsapp-flutuante img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+
+@keyframes whatsapp {
+	0% {scale: 1;}
+	50% {scale: 1.1;}
+	100% {scale: 1;}
 }
 
 header {
