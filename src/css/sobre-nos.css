@@ -70,3 +70,15 @@ aside .botoes .sobre-botao svg {
 .sobre.ativo {
 	display: block;
 }
+
+
+@media (max-width: 800px) {
+	section {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+
+	aside .botoes .sobre-botao {
+		width: 100%;
+	}
+}
