@@ -13,6 +13,8 @@
       rel="stylesheet"
     />
 
+		<script defer src="../script.js"></script>
+
     <!-- LINKS CSS -->
     <link rel="stylesheet" href="../src/css/style.css" />
     <link rel="stylesheet" href="../src/css/loja/galeria.css" />
@@ -31,7 +33,32 @@
         Grand Eva Modas
       </a>
       <nav>
-        <a href="#">Loja</a>
+        <div href="#" class="loja-link">
+          Loja
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-chevron-down-icon lucide-chevron-down"
+          >
+            <path d="m6 9 6 6 6-6" />
+          </svg>
+
+          <div class="links">
+            <a href="vestidos.html">Vestidos</a>
+            <a href="shorts.html">Shorts</a>
+            <a href="camisas.html">Camisas</a>
+            <a href="calcados.html">Calçados</a>
+            <a href="perfumes.html">Perfumes</a>
+            <a href="bolsas.html">Bolsas</a>
+          </div>
+        </div>
         <a href="../sobre-nos.html">Sobre nós</a>
         <a href="../contato.html">Contato</a>
       </nav>
@@ -42,14 +69,17 @@
         <img src="../src/imagens/whatsapp-logo.png" alt="" />
       </a>
 
-			<h1>Vestidos</h1>
+      <h1>Vestidos</h1>
 
-			<section id="galeria">
-			</section>
+      <section id="galeria"></section>
     </main>
     <footer>
-      <img src="../src/imagens/bazar-logo.webp" alt="Logo" class="footer-logo" />
-      <div class="links">
+      <img
+        src="../src/imagens/bazar-logo.webp"
+        alt="Logo"
+        class="footer-logo"
+      />
+      <div class="footer-links">
         <div class="links-esquerda">
           <p><strong>Início</strong></p>
           <a href="#">Sobre nós</a>
@@ -90,37 +120,37 @@
       new window.VLibras.Widget("https://vlibras.gov.br/app");
     </script>
 
-		<script>
-			main();
+    <script>
+      main();
 
-			async function main() {
-				const data = await getVestidos();
+      async function main() {
+        const data = await getData();
 
-				const vestidos = Array.from(data["data"][0]["vestidos"])
+        const produtos = Array.from(data["data"][0]["vestidos"]);
 
-				showData(vestidos)
-			}
+        showData(produtos);
+      }
 
-			async function getVestidos() {
-				const res = await fetch("../src/data.json")
+      async function getData() {
+        const res = await fetch("../src/data.json");
 
-				const data = await res.json();
+        const data = await res.json();
 
-				return data;
-			}
+        return data;
+      }
 
-			function showData(data) {
-				const galeria = document.querySelector("#galeria")
+      function showData(data) {
+        const galeria = document.querySelector("#galeria");
 
-				for (const product of data) {
-					galeria.innerHTML += `	
+        for (const product of data) {
+          galeria.innerHTML += `	
 						<a class="produto" href="produto.html?type=vestidos&id=${product.id}">
 							<img src="../src/imagens/${product.folderName}/${product.imageName}" alt="">
 							<p class="nome">${product.nome} ></p>
 						</a>
-					`	
-				}
-			}
-		</script>
+					`;
+        }
+      }
+    </script>
   </body>
 </html>

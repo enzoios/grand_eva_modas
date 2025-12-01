@@ -13,6 +13,8 @@
       rel="stylesheet"
     />
 
+		<script defer src="script.js"></script>
+
     <!-- LINKS CSS -->
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/sobre-nos.css" />
@@ -24,7 +26,32 @@
         Grand Eva Modas
       </a>
       <nav>
-        <a href="#">Loja</a>
+        <div href="#" class="loja-link">
+          Loja
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-chevron-down-icon lucide-chevron-down"
+          >
+            <path d="m6 9 6 6 6-6" />
+          </svg>
+
+          <div class="links">
+            <a href="loja/vestidos.html">Vestidos</a>
+            <a href="loja/shorts.html">Shorts</a>
+            <a href="loja/camisas.html">Camisas</a>
+            <a href="loja/calcados.html">Calçados</a>
+            <a href="loja/perfumes.html">Perfumes</a>
+            <a href="loja/bolsas.html">Bolsas</a>
+          </div>
+        </div>
         <a href="sobre-nos.html">Sobre nós</a>
         <a href="contato.html">Contato</a>
       </nav>
@@ -201,7 +228,7 @@
     </main>
     <footer>
       <img src="src/imagens/bazar-logo.webp" alt="Logo" class="footer-logo" />
-      <div class="links">
+      <div class="footer-links">
         <div class="links-esquerda">
           <p><strong>Início</strong></p>
           <a href="#">Sobre nós</a>

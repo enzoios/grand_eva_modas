@@ -17,7 +17,7 @@
 
     <!-- LINKS CSS -->
     <link rel="stylesheet" href="../src/css/style.css" />
-    <link rel="stylesheet" href="../src/css/loja/produto.css" />
+    <link rel="stylesheet" href="../src/css/loja/galeria.css" />
 
     <!-- SWIPER  -->
     <link
@@ -69,7 +69,9 @@
         <img src="../src/imagens/whatsapp-logo.png" alt="" />
       </a>
 
-      <section id="produto"></section>
+      <h1>Calçados</h1>
+
+      <section id="galeria"></section>
     </main>
     <footer>
       <img
@@ -122,25 +124,14 @@
       main();
 
       async function main() {
-        const urlQuery = new URLSearchParams(window.location.search);
+        const data = await getData();
 
-        const type = urlQuery.get("type");
-        const id = Number(urlQuery.get("id"));
+        const produtos = Array.from(data["data"][0]["calcados"]);
 
-        const data = await getProductData();
-
-        const vestidos = Array.from(data["data"][0][type]);
-
-        const vestidoSelecionado = vestidos.find((vestido) => {
-          return vestido.id === id;
-        });
-
-        console.log(vestidoSelecionado);
-
-        showData(vestidoSelecionado);
+        showData(produtos);
       }
 
-      async function getProductData() {
+      async function getData() {
         const res = await fetch("../src/data.json");
 
         const data = await res.json();
@@ -149,20 +140,16 @@
       }
 
       function showData(data) {
-        const produto = document.querySelector("#produto");
+        const galeria = document.querySelector("#galeria");
 
-        produto.innerHTML = `	
-						<img src="../src/imagens/${data.folderName}/${data.imageName}" alt="">
-						<div class="informacoes">
-							<p class="nome">${data.nome}</p>
-							
-							<p class="tamanho">Tamanho do produto: <span>M</span></p>
-
-							<p class="genero">Genero do produto: <span>F</span></p>
-
-							<a href="#">Pedir informações</a>
-						</div>
+        for (const product of data) {
+          galeria.innerHTML += `	
+						<a class="produto" href="produto.html?type=calcados&id=${product.id}">
+							<img src="../src/imagens/${product.folderName}/${product.imageName}" alt="">
+							<p class="nome">${product.nome} ></p>
+						</a>
 					`;
+        }
       }
     </script>
   </body>
