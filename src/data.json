@@ -1,0 +1,94 @@
+{
+	"data": [
+		{
+			"vestidos": [
+				{
+					"id": 0,
+					"nome": "Vestido Rosa",
+					"imageName": "vestido.jpg",
+					"folderName": "vestidos"
+				},
+				{
+					"id": 1,
+					"nome": "Vestido Rosa",
+					"imageName": "vestido.jpg",
+					"folderName": "vestidos"
+				},
+				{
+					"id": 2,
+					"nome": "Vestido Preto",
+					"imageName": "vestido.jpg",
+					"folderName": "vestidos"
+				},
+				{
+					"id": 3,
+					"nome": "Vestido Rosa",
+					"imageName": "vestido.jpg",
+					"folderName": "vestidos"
+				},
+				{
+					"id": 4,
+					"nome": "Vestido Rosa",
+					"imageName": "vestido.jpg",
+					"folderName": "vestidos"
+				},
+				{
+					"id": 5,
+					"nome": "Vestido Rosa",
+					"imageName": "vestido.jpg",
+					"folderName": "vestidos"
+				},
+				{
+					"id": 6,
+					"nome": "Vestido Rosa",
+					"imageName": "vestido.jpg",
+					"folderName": "vestidos"
+				}
+			],
+			"shorts": [
+				{
+					"id": 7,
+					"nome": "Shorts",
+					"imageName": "shorts.jpg",
+					"folderName": "shorts"
+				},
+				{
+					"id": 8,
+					"nome": "Shorts",
+					"imageName": "shorts.jpg",
+					"folderName": "shorts"
+				},
+				{
+					"id": 9,
+					"nome": "Shorts",
+					"imageName": "shorts.jpg",
+					"folderName": "shorts"
+				},
+				{
+					"id": 10,
+					"nome": "Shorts",
+					"imageName": "shorts.jpg",
+					"folderName": "shorts"
+				},
+				{
+					"id": 11,
+					"nome": "Shorts",
+					"imageName": "shorts.jpg",
+					"folderName": "shorts"
+				},
+				{
+					"id": 12,
+					"nome": "Shorts",
+					"imageName": "shorts.jpg",
+					"folderName": "shorts"
+				},
+				{
+					"id": 13,
+					"nome": "Shorts",
+					"imageName": "shorts.jpg",
+					"folderName": "shorts"
+				}
+			]
+		}
+	]
+}

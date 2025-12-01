@@ -151,6 +151,11 @@ footer .direitos-reservados {
 
 /* MEDIA QUERIES */
 @media (max-width: 768px){
+	.whatsapp-flutuante {
+		width: 3rem;
+		height: 3rem;
+	}
+
     nav {
         height: fit-content;
     }
