@@ -10,83 +10,261 @@
 				},
 				{
 					"id": 1,
-					"nome": "Vestido Rosa",
-					"imageName": "vestido.jpg",
-					"folderName": "vestidos"
-				},
-				{
-					"id": 2,
-					"nome": "Vestido Preto",
-					"imageName": "vestido.jpg",
+					"nome": "Macacão Azul",
+					"imageName": "macacão-azul.jpg",
 					"folderName": "vestidos"
 				},
 				{
 					"id": 3,
-					"nome": "Vestido Rosa",
-					"imageName": "vestido.jpg",
+					"nome": "Vestido de Estampa Azul",
+					"imageName": "vestido-estampa-azul.jpg",
 					"folderName": "vestidos"
 				},
 				{
 					"id": 4,
-					"nome": "Vestido Rosa",
-					"imageName": "vestido.jpg",
+					"nome": "Vestido de Estampa Vermelho",
+					"imageName": "vestido-estampa-vermelho.jpg",
 					"folderName": "vestidos"
 				},
 				{
 					"id": 5,
-					"nome": "Vestido Rosa",
-					"imageName": "vestido.jpg",
+					"nome": "Vestido Azul",
+					"imageName": "vestido-azul.jpg",
 					"folderName": "vestidos"
-				},
-				{
-					"id": 6,
-					"nome": "Vestido Rosa",
-					"imageName": "vestido.jpg",
-					"folderName": "vestidos"
-				}
+				}	
 			],
 			"shorts": [
 				{
-					"id": 7,
-					"nome": "Shorts",
+					"id": 6,
+					"nome": "Short feminino",
 					"imageName": "shorts.jpg",
+					"folderName": "shorts"
+				},
+				{
+					"id": 7,
+					"nome": "Short Cinza",
+					"imageName": "short-cinza.jpg",
 					"folderName": "shorts"
 				},
 				{
 					"id": 8,
-					"nome": "Shorts",
-					"imageName": "shorts.jpg",
+					"nome": "Short Bege",
+					"imageName": "short-bege.jpg",
 					"folderName": "shorts"
-				},
+				}
+			],
+			"bolsas": [
 				{
 					"id": 9,
-					"nome": "Shorts",
-					"imageName": "shorts.jpg",
-					"folderName": "shorts"
+					"nome": "Bolsa Azul",
+					"imageName": "bolsa-azul.jpg",
+					"folderName": "bolsas"
 				},
 				{
 					"id": 10,
-					"nome": "Shorts",
-					"imageName": "shorts.jpg",
-					"folderName": "shorts"
+					"nome": "Bolsa Marrom",
+					"imageName": "bolsa-marrom.jpg",
+					"folderName": "bolsas"
 				},
 				{
 					"id": 11,
-					"nome": "Shorts",
-					"imageName": "shorts.jpg",
-					"folderName": "shorts"
+					"nome": "Bolsa Preta",
+					"imageName": "bolsa-preta.jpg",
+					"folderName": "bolsas"
 				},
 				{
 					"id": 12,
-					"nome": "Shorts",
-					"imageName": "shorts.jpg",
-					"folderName": "shorts"
-				},
+					"nome": "Bolsa Preta de Ombro",
+					"imageName": "bolsa-preta-2.jpg",
+					"folderName": "bolsas"
+				}
+			],
+			"perfumes_e_desodorantes": [
 				{
 					"id": 13,
-					"nome": "Shorts",
-					"imageName": "shorts.jpg",
-					"folderName": "shorts"
+					"nome": "212 VIP NYC",
+					"imageName": "212-vip-nyc.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 14,
+					"nome": "212 VIP NYC - ROSE",
+					"imageName": "212-vip-rose.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 15,
+					"nome": "Desodorante Natura Biografia",
+					"imageName": "desodorante-biografia.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 16,
+					"nome": "Desodorante Natura Todo Dia - Manga Rosa e Água de Coco",
+					"imageName": "desodorante-manga-rosa.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 17,
+					"nome": "Desodorante Sr. N",
+					"imageName": "desodorante-srn.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 18,
+					"nome": "Fantasy - Britney Spears",
+					"imageName": "fantasy.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 19,
+					"nome": "Ferrari",
+					"imageName": "ferrari.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 20,
+					"nome": "Desodorante Masculino Homem",
+					"imageName": "homem.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 21,
+					"nome": "Invictus",
+					"imageName": "invictus.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 22,
+					"nome": "Desodorante Kayak Pulso",
+					"imageName": "kayak-pulso.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 23,
+					"nome": "Desodorante Kayak Pulso - Refil",
+					"imageName": "kayak-pulso-refil.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 24,
+					"nome": "Kayak Extremo",
+					"imageName": "kayak-extremo.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 25,
+					"nome": "Linda Irresistível",
+					"imageName": "linda.jpg",
+					"folderName": "perfumes"
+				},
+				{
+					"id": 26,
+					"nome": "Coffee Woman - Seduction",
+					"imageName": "seduction.jpg",
+					"folderName": "perfumes"
+				}
+			],
+			"calcados": [
+				{
+					"id": 27,
+					"nome": "Chinelo Azul",
+					"imageName": "chinelo-azul.jpg",
+					"folderName": "calcado"
+				},
+				{
+					"id": 28,
+					"nome": "Jordan Azul",
+					"imageName": "tenis.jpg",
+					"folderName": "calcado"
+				},
+				{
+					"id": 29,
+					"nome": "Tênis Branco",
+					"imageName": "tenis-branco.jpg",
+					"folderName": "calcado"
+				},
+				{
+					"id": 30,
+					"nome": "Sapatênis Marrom",
+					"imageName": "tenis-marrom.jpg",
+					"folderName": "calcado"
+				},
+				{
+					"id": 31,
+					"nome": "Chinelo Rosa",
+					"imageName": "chinelo-rosa.jpg",
+					"folderName": "calcado"
+				}
+			],
+			"camisas": [
+				{
+					"id": 32,
+					"nome": "Camiseta Amarela",
+					"imageName": "camisa-amarela.jpg",
+					"folderName": "camisas"
+				},
+				{
+					"id": 33,
+					"nome": "Camiseta Azul Escuro - Calvin Klein",
+					"imageName": "camisa-azul-escura.jpg",
+					"folderName": "camisas"
+				},
+				{
+					"id": 34,
+					"nome": "Camisa Cinza",
+					"imageName": "camisa-cinza.jpg",
+					"folderName": "camisas"
+				},
+				{
+					"id": 35,
+					"nome": "Camiseta Vermelha",
+					"imageName": "camisa-vermelha.jpg",
+					"folderName": "camisas"
+				},
+				{
+					"id": 36,
+					"nome": "Regata Everlast",
+					"imageName": "regata.jpg",
+					"folderName": "camisas"
+				},
+				{
+					"id": 37,
+					"nome": "Regata Rockets",
+					"imageName": "regata-rockets.jpg",
+					"folderName": "camisas"
+				}
+			],
+			"chapeus": [
+				{
+					"id": 38,
+					"nome": "Boné do Conrinthians",
+					"imageName": "bone-corinthians.jpg",
+					"folderName": "chapeu"
+				},
+				{
+					"id": 39,
+					"nome": "Boné do Flamengo",
+					"imageName": "bone-flamengo.jpg",
+					"folderName": "chapeu"
+				},
+				{
+					"id": 40,
+					"nome": "Boné do Palmeiras",
+					"imageName": "bone-palmeiras.jpg",
+					"folderName": "chapeu"
+				},
+				{
+					"id": 41,
+					"nome": "Boné do Palmeiras Branco",
+					"imageName": "bone-palmeiras-branco.jpg",
+					"folderName": "chapeu"
+				},
+				{
+					"id": 42,
+					"nome": "Boné do Vasco",
+					"imageName": "bone-vasco.jpg",
+					"folderName": "chapeu"
 				}
 			]
 		}
