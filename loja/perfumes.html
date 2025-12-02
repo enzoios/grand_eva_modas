@@ -126,7 +126,7 @@
       async function main() {
         const data = await getData();
 
-        const produtos = Array.from(data["data"][0]["perfumes"]);
+        const produtos = Array.from(data["data"][0]["perfumes_e_desodorantes"]);
 
         showData(produtos);
       }
@@ -144,7 +144,7 @@
 
         for (const product of data) {
           galeria.innerHTML += `	
-						<a class="produto" href="produto.html?type=perfumes&id=${product.id}">
+						<a class="produto" href="produto.html?type=perfumes_e_desodorantes&id=${product.id}">
 							<img src="../src/imagens/${product.folderName}/${product.imageName}" alt="">
 							<p class="nome">${product.nome} ></p>
 						</a>
