@@ -63,19 +63,34 @@
 					"id": 6,
 					"nome": "Short feminino",
 					"imageName": "shorts.jpg",
-					"folderName": "shorts"
+					"folderName": "shorts",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Cinza com fita colorida",
+						"gênero": "Feminino"
+					}
 				},
 				{
 					"id": 7,
 					"nome": "Short Cinza",
 					"imageName": "short-cinza.jpg",
-					"folderName": "shorts"
+					"folderName": "shorts",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Cinza",
+						"gênero": "Masculino"
+					}
 				},
 				{
 					"id": 8,
 					"nome": "Short Bege",
 					"imageName": "short-bege.jpg",
-					"folderName": "shorts"
+					"folderName": "shorts",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Bege",
+						"gênero": "Masculino"
+					}
 				},
 				{
 					"id": 42,
@@ -246,61 +261,111 @@
 					"id": 27,
 					"nome": "Chinelo Azul",
 					"imageName": "chinelo-azul.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "40",
+						"cor": "Azul",
+						"gênero": "Masculino"
+					}
 				},
 				{
 					"id": 28,
 					"nome": "Jordan Azul",
 					"imageName": "tenis.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "41",
+						"cor": "Azul",
+						"gênero": "Masculino"
+					}
 				},
 				{
 					"id": 29,
 					"nome": "Tênis Branco",
 					"imageName": "tenis-branco.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "41",
+						"cor": "Branco",
+						"gênero": "Masculino"
+					}
 				},
 				{
 					"id": 30,
 					"nome": "Sapatênis Marrom",
 					"imageName": "tenis-marrom.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "41",
+						"cor": "Marrom",
+						"gênero": "Masculino"
+					}
 				},
 				{
 					"id": 31,
 					"nome": "Chinelo Rosa",
 					"imageName": "chinelo-rosa.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "41",
+						"cor": "Rosa",
+						"marca": "Havaianas"
+					}
 				},
 				{
 					"id": 50,
 					"nome": "Sandália Masculina",
 					"imageName": "sandalia-masculina.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "42",
+						"cor": "Preto",
+						"gênero": "Masculino"
+					}
 				},
 				{
 					"id": 51,
 					"nome": "Sapatênis Branco",
 					"imageName": "sapatenis-branco.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "39",
+						"cor": "Branco",
+						"gênero": "Unissex"
+					}
 				},
 				{
 					"id": 52,
 					"nome": "Sapatilha Branca",
 					"imageName": "sapatilha-branca.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "38",
+						"cor": "Branco",
+						"gênero": "Feminino"
+					}
 				},
 				{
 					"id": 53,
 					"nome": "Sapatilha Vermelha",
 					"imageName": "sapatilha-vermelha.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "38",
+						"cor": "Vermelho",
+						"gênero": "Feminino"
+					}
 				},
 				{
 					"id": 54,
 					"nome": "Tênis Infantil All Star",
 					"imageName": "tenis-infantil-allstar.jpg",
-					"folderName": "calcado"
+					"folderName": "calcado",
+					"atributos": {
+						"tamanho": "20",
+						"cor": "Branco",
+						"gênero": "Masculino"
+					}
 				}
 			],
 			"camisas": [
