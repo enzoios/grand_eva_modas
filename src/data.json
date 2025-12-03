@@ -6,32 +6,57 @@
 					"id": 0,
 					"nome": "Vestido Rosa",
 					"imageName": "vestido.jpg",
-					"folderName": "vestidos"
+					"folderName": "vestidos",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Rosa",
+						"gênero": "Feminino"
+					}
 				},
 				{
 					"id": 1,
 					"nome": "Macacão Azul",
 					"imageName": "macacão-azul.jpg",
-					"folderName": "vestidos"
+					"folderName": "vestidos",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Azul",
+						"gênero": "Feminino"
+					}
 				},
 				{
 					"id": 3,
 					"nome": "Vestido de Estampa Azul",
 					"imageName": "vestido-estampa-azul.jpg",
-					"folderName": "vestidos"
+					"folderName": "vestidos",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Azul",
+						"gênero": "Feminino"
+					}
 				},
 				{
 					"id": 4,
 					"nome": "Vestido de Estampa Vermelho",
 					"imageName": "vestido-estampa-vermelho.jpg",
-					"folderName": "vestidos"
+					"folderName": "vestidos",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Vermelho",
+						"gênero": "Feminino"
+					}
 				},
 				{
 					"id": 5,
 					"nome": "Vestido Azul",
 					"imageName": "vestido-azul.jpg",
-					"folderName": "vestidos"
-				}	
+					"folderName": "vestidos",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Azul",
+						"gênero": "Feminino"
+					}
+				}
 			],
 			"shorts": [
 				{
@@ -51,6 +76,39 @@
 					"nome": "Short Bege",
 					"imageName": "short-bege.jpg",
 					"folderName": "shorts"
+				},
+				{
+					"id": 42,
+					"nome": "Saia Preta",
+					"imageName": "saia-preta.jpg",
+					"folderName": "shorts",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Preto",
+						"gênero": "Feminino"
+					}
+				},
+				{
+					"id": 43,
+					"nome": "Saia com estampa de onça",
+					"imageName": "saia-estampa-de-onca.jpg",
+					"folderName": "shorts",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Amarelo e Preto",
+						"gênero": "Feminino"
+					}
+				},
+				{
+					"id": 44,
+					"nome": "Saia com cores azul e amarelo",
+					"imageName": "saia-estampa-azul.jpg",
+					"folderName": "shorts",
+					"atributos": {
+						"tamanho": "M",
+						"cor": "Azul e Amarelo",
+						"gênero": "Feminino"
+					}
 				}
 			],
 			"bolsas": [
@@ -76,6 +134,24 @@
 					"id": 12,
 					"nome": "Bolsa Preta de Ombro",
 					"imageName": "bolsa-preta-2.jpg",
+					"folderName": "bolsas"
+				},
+								{
+					"id": 45,
+					"nome": "Bolsa de Ombro Verde",
+					"imageName": "bolsa-de-ombro-verde.jpg",
+					"folderName": "bolsas"
+				},
+				{
+					"id": 46,
+					"nome": "Bolsa com Estampa Colorida",
+					"imageName": "bolsa-estampa-colorida.jpg",
+					"folderName": "bolsas"
+				},
+				{
+					"id": 47,
+					"nome": "Bolsa Simples Pequena",
+					"imageName": "bolsa-simples-preta.jpg",
 					"folderName": "bolsas"
 				}
 			],
@@ -195,6 +271,36 @@
 					"nome": "Chinelo Rosa",
 					"imageName": "chinelo-rosa.jpg",
 					"folderName": "calcado"
+				},
+				{
+					"id": 50,
+					"nome": "Sandália Masculina",
+					"imageName": "sandalia-masculina.jpg",
+					"folderName": "calcado"
+				},
+				{
+					"id": 51,
+					"nome": "Sapatênis Branco",
+					"imageName": "sapatenis-branco.jpg",
+					"folderName": "calcado"
+				},
+				{
+					"id": 52,
+					"nome": "Sapatilha Branca",
+					"imageName": "sapatilha-branca.jpg",
+					"folderName": "calcado"
+				},
+				{
+					"id": 53,
+					"nome": "Sapatilha Vermelha",
+					"imageName": "sapatilha-vermelha.jpg",
+					"folderName": "calcado"
+				},
+				{
+					"id": 54,
+					"nome": "Tênis Infantil All Star",
+					"imageName": "tenis-infantil-allstar.jpg",
+					"folderName": "calcado"
 				}
 			],
 			"camisas": [
@@ -233,7 +339,32 @@
 					"nome": "Regata Rockets",
 					"imageName": "regata-rockets.jpg",
 					"folderName": "camisas"
+				},
+				{
+					"id": 55,
+					"nome": "Camisa Branca",
+					"imageName": "blusa-branca.jpg",
+					"folderName": "camisas"
+				},
+				{
+					"id": 56,
+					"nome": "Camisa Branca com Babado",
+					"imageName": "blusa-branca-com-babado.jpg",
+					"folderName": "camisas"
+				},
+				{
+					"id": 57,
+					"nome": "Camisa verde",
+					"imageName": "blusa-verde.jpg",
+					"folderName": "camisas"
+				},
+				{
+					"id": 58,
+					"nome": "Camiseta Vermelha",
+					"imageName": "blusa-vermelha.jpg",
+					"folderName": "camisas"
 				}
+				
 			],
 			"chapeus": [
 				{

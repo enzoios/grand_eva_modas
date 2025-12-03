@@ -57,6 +57,8 @@
             <a href="calcados.html">Calçados</a>
             <a href="perfumes.html">Perfumes</a>
             <a href="bolsas.html">Bolsas</a>
+            <a href="chapeu.html">Chapéus e Bonés</a>
+            <a href="bijuterias.html">Bijuterias</a>
           </div>
         </div>
         <a href="../sobre-nos.html">Sobre nós</a>
@@ -65,7 +67,11 @@
     </header>
     <main>
       <!-- BOTÃO WHATSAPP FLUTUANTE -->
-      <a class="whatsapp-flutuante" target="_blank" href="https://wa.me/11995175549?text=Ol%C3%A1%21+Estou+vindo+atrav%C3%A9s+do+site+e+gostaria+de+algumas+informa%C3%A7%C3%B5es.">
+      <a
+        class="whatsapp-flutuante"
+        target="_blank"
+        href="https://wa.me/11995175549?text=Ol%C3%A1%21+Estou+vindo+atrav%C3%A9s+do+site+e+gostaria+de+algumas+informa%C3%A7%C3%B5es."
+      >
         <img src="../src/imagens/whatsapp-logo.png" alt="" />
       </a>
 
@@ -95,9 +101,6 @@
           <a href="shorts.html">Shorts</a>
           <a href="perfumes.html">Perfumes</a>
           <a href="blusas.html">Blusas</a>
-          <a href="#">Itens cosméticos</a>
-          <a href="#">Louças</a>
-          <a href="#">Genéricos</a>
         </div>
       </div>
 
@@ -144,9 +147,9 @@
 
         for (const product of data) {
           galeria.innerHTML += `	
-						<a class="produto" href="produto.html?type=bolsas&id=${product.id}">
+						<a class="produto">
 							<img src="../src/imagens/${product.folderName}/${product.imageName}" alt="">
-							<p class="nome">${product.nome} ></p>
+							<p class="nome">${product.nome}</p>
 						</a>
 					`;
         }

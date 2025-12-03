@@ -75,9 +75,40 @@
         <img src="../src/imagens/whatsapp-logo.png" alt="" />
       </a>
 
-      <h1>Vestidos</h1>
+      <h1>Brincos</h1>
 
-      <section id="galeria"></section>
+      <section id="galeria">
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-pedra-azul.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-01.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-02.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-03.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-04.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-05.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-06.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-07.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-cinza.jpg" alt="">
+				</a>
+				<a class="produto">
+					<img src="../src/imagens/bijuterias/brinco-abacaxi-rosa.jpg" alt="">
+				</a>
+			</section>
     </main>
     <footer>
       <img
@@ -85,7 +116,7 @@
         alt="Logo"
         class="footer-logo"
       />
-      <div class="footer-links">
+      <div class="links">
         <div class="links-esquerda">
           <p><strong>Início</strong></p>
           <a href="../sobre-nos.html">Sobre nós</a>
@@ -121,39 +152,6 @@
 
     <script>
       new window.VLibras.Widget("https://vlibras.gov.br/app");
-    </script>
-
-    <script>
-      main();
-
-      async function main() {
-        const data = await getData();
-
-        const produtos = Array.from(data["data"][0]["vestidos"]);
-
-        showData(produtos);
-      }
-
-      async function getData() {
-        const res = await fetch("../src/data.json");
-
-        const data = await res.json();
-
-        return data;
-      }
-
-      function showData(data) {
-        const galeria = document.querySelector("#galeria");
-
-        for (const product of data) {
-          galeria.innerHTML += `	
-						<a class="produto" href="produto.html?type=vestidos&id=${product.id}">
-							<img src="../src/imagens/${product.folderName}/${product.imageName}" alt="">
-							<p class="nome">${product.nome} ></p>
-						</a>
-					`;
-        }
-      }
     </script>
   </body>
 </html>
