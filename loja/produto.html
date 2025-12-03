@@ -154,6 +154,8 @@
       function showData(data) {
         const produto = document.querySelector("#produto");
 
+				const mensagemPersonalizadaWhatsapp = `Olá! Estou interessado no produto: ${data.nome}, com o ID: ${data.id}. Poderia me fornecer mais informações, por favor?`;
+
         produto.innerHTML = `	
 						<img src="../src/imagens/${data.folderName}/${data.imageName}" alt="">
 						<div class="informacoes">
@@ -177,7 +179,7 @@
 									`</div>`;
 							})()}
 
-							<a target="_blank" href="https://wa.me/11995175549?text=Ol%C3%A1%21+Estou+vindo+atrav%C3%A9s+do+site+e+gostaria+de+algumas+informa%C3%A7%C3%B5es.">Pedir informações</a>
+							<a target="_blank" href="https://wa.me/11995175549?text=${encodeURIComponent(mensagemPersonalizadaWhatsapp)}">Pedir informações</a>
 						</div>
 					`;
       }
